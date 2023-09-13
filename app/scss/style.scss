@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1233px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    padding-top: 34px;
+    padding-bottom: 12px;
+}
+
+.header__content {
+    display: flex;
+}
+
+.header__menu {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 21px;
+    gap: 41px;
+    margin-top: 4px;
+}
+
+.header__tell-and-mass {
+    display: flex;
+    gap: 36px;
+    margin-left: auto;
+    margin-top: -24px;
+    margin-right: 2px;
+}
+
+.header__tell,
+.header__mass {
+    display: flex;
+    gap: 12px;
+}
+
+.tell,
+.mass {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.tell span,
+.mass span {
+    font-size: 18px;
+    font-weight: 400;
+}
